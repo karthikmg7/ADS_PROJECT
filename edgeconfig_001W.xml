@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dat:DPManager xmi:version="2.0" VersionsStoredLimit="30" xmi:id="WAMTManager_0" xmlns:dat="http://www.obfuscated/datapower/lfs/schemas/7.0/datapowermgr.xmi" xmlns:xmi="http://www.omg.org/XMI">
+<devices xmi:id="DPDevice_0"
+ deviceType="XS40" GUIPort="50080" HLMPort="5550" currentAMPVersion="1.0" quiesceTimeout="60" featureLicenses="MQ;TAM;DataGlue;JAXP-API;PKCS7-SMIME;SQL-ODBC;Tibco-EMS;WebSphere-JMS;" ><domains xmi:id="DPDomain_
+0_0" highestVersion="0" SynchDate="0" OutOfSynch="true" quiesceTimeout="60" SyncMode="MANUAL"><deploymentPolicy xmi:id="DPPolicy_2" highestVersion="0" SynchDate="0" policyType="NONE">
+<serviceend-point xmi:id="SvcEndpoint_2_0" 
+type="webserviceproxy" operation="none" port="30000" targetserver="anonymizedendserver_5607" /><serviceend-point xmi:id="SvcEndpoint_2_1" 
+type="webserviceproxy" operation="none" port="30001" targetserver="anonymizedendserver_1723" /></deploymentPolicy>
+</domains>
+</devices>
+<devices xmi:id="DPDevice_1"
+ deviceType="XC10" GUIPort="50080" HLMPort="5550" currentAMPVersion="1.0" quiesceTimeout="60" featureLicenses="MQ;TAM;DataGlue;JAXP-API;PKCS7-SMIME;SQL-ODBC;Tibco-EMS;WebSphere-JMS;" ></devices>
+<devices xmi:id="DPDevice_2"
+ deviceType="XC10" GUIPort="50080" HLMPort="5550" currentAMPVersion="1.0" quiesceTimeout="60" featureLicenses="MQ;TAM;DataGlue;JAXP-API;PKCS7-SMIME;SQL-ODBC;Tibco-EMS;WebSphere-JMS;" ></devices>
+<devices xmi:id="DPDevice_3"
+ deviceType="XS40" GUIPort="50080" HLMPort="5550" currentAMPVersion="1.0" quiesceTimeout="60" featureLicenses="MQ;TAM;DataGlue;JAXP-API;PKCS7-SMIME;SQL-ODBC;Tibco-EMS;WebSphere-JMS;" ></devices>
+<devices xmi:id="DPDevice_4"
+ deviceType="XI50" GUIPort="50080" HLMPort="5550" currentAMPVersion="1.0" quiesceTimeout="60" featureLicenses="MQ;TAM;DataGlue;JAXP-API;PKCS7-SMIME;SQL-ODBC;Tibco-EMS;WebSphere-JMS;" ><domains xmi:id="DPDomain_
+4_0" highestVersion="0" SynchDate="0" OutOfSynch="true" quiesceTimeout="60" SyncMode="MANUAL"><deploymentPolicy xmi:id="DPPolicy_3" highestVersion="0" SynchDate="0" policyType="NONE">
+<serviceend-point xmi:id="SvcEndpoint_3_0" 
+type="webapplicationfirewall" operation="none" port="30000" targetserver="anonymizedendserver_5540" /><serviceend-point xmi:id="SvcEndpoint_3_1" 
+type="xml-firewall" operation="none" port="30001" targetserver="anonymizedendserver_8091" /><serviceend-point xmi:id="SvcEndpoint_3_2" 
+type="multiprotocolgateway" operation="decrypt" port="30002" targetserver="anonymizedendserver_207" /><serviceend-point xmi:id="SvcEndpoint_3_3" 
+type="webapplicationfirewall" operation="none" port="30003" targetserver="anonymizedendserver_3835" /></deploymentPolicy>
+</domains>
+</devices>
+<managedSets xmi:id="DPManagedSet_0" 
+devicemembers="device_2,device_1,device_4," /><managedSets xmi:id="DPManagedSet_1" 
+devicemembers="" /><managedSets xmi:id="DPManagedSet_2" 
+devicemembers="device_3,device_4," /><managedSets xmi:id="DPManagedSet_3" 
+devicemembers="device_3," /><managedSets xmi:id="DPManagedSet_4" 
+devicemembers="device_4,device_0,device_3," /></dat:DPManager>
